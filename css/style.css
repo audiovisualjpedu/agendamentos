@@ -10,84 +10,92 @@ html, body {
     font-size: 18px;
 }
 
-.img-principal {
-    position: relative;
-    background: url(/img/img-agenda.svg) no-repeat center;
-    background-size: cover;
-    height: 340px;
-    overflow: hidden;
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.triangulo {
+    display: flex;
+    justify-content: center;
+    background: #ff3b4a;
+    flex-direction: column;
+    height: 400pxpx;
+
+
 }
 
 /*
-@media screen and (max-width: 1020px) {
-    .img-principal {
-        position: relative;
-        background: url(/img/img-media-agenda.svg) no-repeat center;
-        background-size: cover;
-    }
-  }*/
-
-  @media screen and (max-width: 780px) {
-    .img-principal {
-        position: relative;
-        background: url(/img/img-small-media-agenda.svg) no-repeat center;
-        background-size: cover;
-    }
-  }
-
-@media screen and (max-width: 450px) {
-    .img-principal {
-        position: relative;
-        background: url(/img/img-small-agenda.svg) no-repeat center;
-        background-size: cover;
-    }
-  }
-
-.main {
-    display: flex;
-    justify-content: space-between;
-}
-
-.iframe {
-    display: flex;
-    justify-content: center;
-    height: 700px;
-}
-
-@media screen and (max-width: 900px) {
-    .iframe {
-    display: flex;
-    justify-content: center;
-    height: 700px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .iframe {
-    display: flex;
-    justify-content: center;
-    height: 1150px;
-    }
-}
-
-.container {
-    position: absolute;
-    transform: translate (-50%, -50%);
-    color: #fff;
-    font-weight: 500;
-}
-
-.rodape {
-    background: #1a73e8;
-    display: flex;
-    justify-content: center;
+.triangulo {
+    display: float;
+    justify-content: center ;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 1280px solid rgb(228, 16, 16);
+    border-bottom: 611px solid transparent;
     flex-wrap: wrap;
-    color:#fff;
-    padding: 15px;
+}*/
+
+
+.jpedu {
+    display: flex;
+    justify-content: center;
+
 }
 
+.conteudo {
+    display: flex;
+    justify-content: center
+   
+}
 
+.agendamento {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: center;
+}
 
+.titulo-player {
+    color: #fff
+}
 
-
+.texto-btn {
+    display: flex;
+    align-items: center;
+    color:#fff;
+}
  
+/* Section */
+
+.faixa-cards {
+    display: flex;
+    justify-content: center;
+    background: #3f3f3f
+}
+
+.corpo-cards {
+    display: flex;
+    justify-content:center;
+    background: gray;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo-circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
