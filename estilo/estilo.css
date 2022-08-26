@@ -69,12 +69,18 @@ html, body {
 }
 
 .btn-agendar {
-    background-color: #fff;
+    background-color: #ff3b4a;
     width: 140px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 15px; 
     border: none;
-    box-shadow: 4px 5px 4px solid black;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.btn-agendar:hover {
+    background-color: rgba(31, 18, 7, 0.801);
+
 }
 
 #player {
@@ -88,7 +94,7 @@ html, body {
     color: #fff; 
 }
 
-/* Section */
+/* Section 2 */
 
 .section-cards {
     display: flex;
