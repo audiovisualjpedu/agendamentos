@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/*
+.triangulo {
+    display: float;
+    justify-content: center ;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 1280px solid rgb(228, 16, 16);
+    border-bottom: 611px solid transparent;
+    flex-wrap: wrap;
+}*/
+
+
+.principal {
+    border-top: 0.4px solid white;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.section-principal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(16deg, #fff 50%, #ff3b4a 1%);
+    padding: 24px;
+}
+
+.jpedu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.elementos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.conteudo-agendamento {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    max-width: 50%;
+    align-items: center;
+}
+
+.texto-btn {
+    display: flex;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', cursive;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.btn-agendar {
+    background-color: #fff;
+    width: 140px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 4px 5px 4px solid black;
+}
+
+#player {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-player {
+    color: #fff; 
+}
+
+/* Section */
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.faixa-cards {
+    display: flex;
+    justify-content: space-around;
+    background: #3f3f3f;
+    flex-wrap: wrap;
+}
+
+.corpo-cards {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.corpo-circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 125px;
+    height: 125px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 14px;
+}
+
+#tamanho-icon {
+    font-size: 80px;
+    color: #ff3b4a;
+
+}
+
+.corpo-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
