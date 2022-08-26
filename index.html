@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
 
@@ -13,67 +12,112 @@
 
   <script src="https://kit.fontawesome.com/06f941cf74.js" crossorigin="anonymous"></script>
 
-  <title>JPEDU TV -- Agenda</title>
+  <title>JPEDU TV - Agenda</title>
 </head>
 
 <body>
-  <header class="cabecalho">
-    <div class="triangulo">
-      <div class="jpedu">
-        <img src="/img/jpedu-branco.png" alt="logo" width=93 height=133>
-      </div>
-      <div class="conteudo">
-        <div class="agendamento">
-          <p class="texto-btn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore molestiae, minus
-            vel ipsam voluptatem quidem ad repellat sed incidunt! Dicta molestiae, nobis labore sequi iste provident
-            tempore dolore. Earum.</p>
-          <button class="agendamento">AGENDAR</button>
-        </div>
-        <div class="player">
-          <h3 class="titulo-player">dúvidas para agendar?</h3>
-          <iframe width="337" height="190" src="https://www.youtube.com/embed/yrYaZf2G6bs" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <section class="section-card">
-    <div class="faixa-cards">
-      <div class="corpo-cards">
-        <div class="corpo-circulo">
-          <div class="circulo">ÍCONE</div>
+  <main class="principal">
+    <section class="section-principal">
+      <div class="triangulo">
+        <div class="jpedu">
+          <img src="/img/jpedu-branco.svg" height="150px" alt="logo">
         </div>
-        <div class="corpo-descricao">
-          <div class="descricao">DESCRICAO CORPO CARD</div>
-          <div class="btn-clique">CLIQUE</div>
-        </div>
-      </div>
-
-      <div class="corpo-cards">
-        <div class="corpo-circulo">
-          <div class="circulo">ÍCONE</div>
-        </div>
-        <div class="corpo-descricao">
-          <div class="descricao">DESCRICAO CORPO CARD</div>
-          <div class="btn-clique">CLIQUE</div>
-        </div>
-      </div>
-
-      <div class="corpo-cards">
-        <div class="corpo-circulo">
-          <div class="circulo">ÍCONE</div>
-        </div>
-        <div class="corpo-descricao">
-          <div class="descricao">DESCRICAO CORPO CARD</div>
-          <div class="btn-clique">CLIQUE</div>
+        <div class="elementos">
+          <div class="conteudo-agendamento">
+            <p class="texto-btn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore molestiae, minus
+              vel ipsam voluptatem quidem ad repellat sed incidunt! Dicta molestiae, nobis labore sequi iste provident
+              tempore dolore. Earum.</p>
+            <a href="https://www.youtube.com/playlist?list=PLbEB0OYbh2RLAWCzzNPivH1dIyXTuaV9z" target="blank">
+              <button class="btn btn-success">AGENDAR</button>
+            </a>
+          </div>
+          <div class="player">
+            <h5 class="titulo-player">DÚVIDAS PARA AGENDAR?</h5>
+            <iframe class="video" src="https://www.youtube.com/embed/yrYaZf2G6bs"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="section-card">
+      <div class="faixa-cards">
+        <div class="corpo-cards">
+          <div class="corpo-circulo">
+            <!--<div class="circulo">ÍCONE</div>-->
+            <i class="fa-solid fa-arrow-up-from-bracket" id="tamanho-icon"></i>
+          </div>
+          <div class="corpo-descricao">
+            <div class="descricao">DESCRICAO CORPO CARD</div>
+          </div>
+          <div class="btn btn-primary">CLIQUE</div>
+        </div>
+
+        <div class="corpo-cards">
+          <div class="corpo-circulo">
+            <i class="fa-brands fa-square-whatsapp " id="tamanho-icon"></i>
+          </div>
+          <div class="corpo-descricao">
+            <div class="descricao">DESCRICAO CORPO CARD</div>
+          </div>
+          <div class="btn btn-primary">CLIQUE</div>
+        </div>
+
+        <div class="corpo-cards">
+          <div class="corpo-circulo">
+            <i class="fa-brands fa-youtube" id="tamanho-icon"></i>
+          </div>
+          <div class="corpo-descricao">
+            <div class="descricao">PLAYLIST DE APOIO</div>
+          </div>
+          <div class="btn btn-primary">CLIQUE</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+    <section class="">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+
+  <footer class="rodape">
+
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
