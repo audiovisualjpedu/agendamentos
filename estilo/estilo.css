@@ -12,8 +12,8 @@ html, body {
 
 /*
 .triangulo {
-    display: float;
-    justify-content: center ;
+    display: flex;
+    justify-content: space-around ;
     width: 0;
     height: 0;
     border-top: 0px solid transparent;
@@ -45,9 +45,9 @@ html, body {
 
 .elementos {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap-reverse;
     align-items: center;
+    gap: 30px;
 }
 
 .conteudo-agendamento {
@@ -74,13 +74,17 @@ html, body {
     height: 60px;
     border-radius: 15px; 
     border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 5px 4px rgba(133, 40, 40, 0.25);
     color: #fff;
+    cursor: pointer;
 }
 
 .btn-agendar:hover {
-    background-color: rgba(31, 18, 7, 0.801);
+    background-color: rgba(179, 52, 52, 0.801);
+}
 
+.btn-agendar:active {
+    transform: translateY(4px);
 }
 
 #player {
@@ -88,6 +92,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 15px;
 }
 
 .titulo-player {
