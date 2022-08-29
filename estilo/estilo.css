@@ -60,7 +60,6 @@ body {
     flex-direction: column;
     gap: 32px;
     justify-content: center;
-    max-width: 50%;
     align-items: center;
     width: 400px;
     text-align: justify;
@@ -76,6 +75,13 @@ body {
     font-size: 18px;
 }
 
+@media screen and (max-width: 670px) {
+    .texto-btn {
+        font-size: 15px;
+
+    }
+}
+
 .btn-agendar {
     background-color: #ff3b4a;
     width: 140px;
@@ -85,6 +91,7 @@ body {
     box-shadow: 4px 5px 4px rgba(133, 40, 40, 0.25);
     color: #fff;
     cursor: pointer;
+    font-family: 'Roboto', cursive;
 }
 
 .btn-agendar:hover {
@@ -108,6 +115,8 @@ body {
 
 .titulo-player {
     color: #fff;
+    font-family: 'Roboto', cursive;
+    font-weight: 600;
 }
 
 .embed {
@@ -209,6 +218,9 @@ body {
 
 .descricao {
     font-size: 15px;
+    font-family: 'Roboto', cursive;
+    align-items: center;
+    justify-content: center;
 }
 
 .botao-position {
@@ -223,6 +235,7 @@ body {
     background: #ff3b4a;
     color: #D9D9D9;
     cursor: pointer;
+    font-family: 'Roboto', cursive;
     box-shadow: 4px 5px 4px rgba(133, 40, 40, 0.25);
 }
 
