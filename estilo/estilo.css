@@ -172,9 +172,12 @@ body {
 
 @media screen and (max-width: 670px) {
     .corpo-cards {
-        border: 0.2px solid rgb(167, 166, 166);
+        
         margin: 25px 25px;
         border-radius: 10px;
+        background: #ececec;
+        box-shadow: 4px 5px 4px rgba(133, 40, 40, 0.25);
+
     }
 }
 
