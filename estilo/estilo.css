@@ -74,7 +74,6 @@ body {
 @media screen and (max-width: 670px) {
     .texto-btn {
         font-size: 15px;
-
     }
 
     .elementos {
@@ -98,14 +97,13 @@ body {
     background-color: #D9D9D9;
     color: #ff3b4a;
     transition: all 0.5s;
-
 }
 
 .btn-agendar:active {
     transform: translateY(4px);
 }
 
-#player {
+.player {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -119,16 +117,21 @@ body {
 }
 
 .embed {
-    position: relative;
     width: 100%;
     padding-bottom: 56, 25%;
 }
 
-.embed.iframe {
-    position: absolute;
-    width: 50%;
-    height: 50%;
+.embed iframe {
+    width: 480px;
+    height: 270px;
     border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .embed iframe {
+        width: 360px;
+        height: 202px;
+    }
 }
 
 /* Section 2 */
@@ -136,8 +139,6 @@ body {
 .section-cards {
     display: flex;
     justify-content: center;
-
-
 }
 
 .faixa-cards {
@@ -146,7 +147,6 @@ body {
     background: #3f3f3f;
     flex-wrap: wrap;
     padding: 20px 20px;
-
 }
 
 @media screen and (max-width: 820px) {
@@ -156,19 +156,16 @@ body {
         background: #ffffff;
         flex-wrap: wrap;
         position: none;
-
     }
 }
 
 .corpo-cards {
     display: flex;
-
     flex-direction: column;
     align-items: center;
     padding: 20px 20px;
     width: 260px;
     height: 310px;
-
 }
 
 @media screen and (max-width: 820px) {
@@ -178,7 +175,6 @@ body {
         border-radius: 10px;
         background: #ececec;
         box-shadow: 4px 5px 4px rgba(133, 40, 40, 0.25);
-
     }
 }
 
@@ -203,7 +199,6 @@ body {
 #tamanho-icon {
     font-size: 80px;
     color: #ff3b4a;
-
 }
 
 .corpo-descricao {
@@ -232,8 +227,6 @@ body {
     padding-top: 10px;
     margin-top: 215px;
     position: absolute;
-
-
 }
 
 .botao {
